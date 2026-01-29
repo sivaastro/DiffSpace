@@ -134,4 +134,4 @@ loss.backward()  # Gradients computed via adjoint method
 
 - All gravity models implement `compute_gravity()` and `compute_potential()` methods
 - Compatible with PyTorch autograd for end-to-end differentiation
-- .mat files (ParaV.mat, ParaF.mat, SPH.mat) must be present in `models/` directory
+- .mat files (ParaV.mat, ParaF.mat, SPH.mat) must be present in `models/` directory  (Currently works for Eros asteroid. Can work with any asteroid with faces and vortices files)
