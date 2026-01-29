@@ -4,7 +4,7 @@ A self-contained PyTorch-based orbit propagation simulator with differentiable g
 
 ## Features
 
-- **Multiple Gravity Models**: Point Mass, Nagy (cuboid), Polyhedron, Spherical Harmonics
+- **Multiple Gravity Models**: Point Mass, Nagy (cuboid), Polyhedron, Spherical Harmonics (upto 4th degree and order)
 - **Adaptive ODE Solvers**: dopri5 (RK45), dopri8 (RK78), rk4, adaptive_heun
 - **Adjoint Method**: O(1) memory gradient computation for optimization
 - **Batched Operations**: Vectorized gravity field computations (10-40x faster)
